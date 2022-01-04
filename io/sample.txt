@@ -1,0 +1,31 @@
+Description
+If you're thinking about engineering the next big dotcom application then you should seriously consider using Go!! 
+The Go Programming Language is without doubt one of the hottest languages to learn, particularly in this cloud native era. More and more companies are adopting Go to engineer highly performant, stable and maintainable applications. Popular projects such as Docker, Kubernetes, Terraform, Etcd, Istio, InfluxDB have all been built successfully using Go!! 
+This introductory level training course is designed to bring you quickly up to speed with the many key features that the Go programming language provides. You'll also learn how to setup your own Go development environment - consisting of the Go toolchain, Visual Studio Code, and several related Go based extensions - all to ensure that you are able to be productive writing your own source code.
+We’d love to get your feedback on this course, so please give it a rating when you’re finished. If you have any queries or suggestions, please contact us at support@cloudacademy.com.
+
+Learning Objectives
+By completing this course, you will:
+
+Learn about what makes Go a great language
+Learn how to install the Go toolchain
+Learn how to setup Visual Studio Code to edit and debug Go programs
+Learn how to work with the Go Playground to test and run snippets of Go code
+Learn and understand the basic Go language syntax and features
+Learn how to use the Go tool chain commands to compile, test, and manage Go code
+And finally, you’ll learn how to work with and manage Go modules for module dependency management
+Intended Audience
+This course is intended for:
+
+Anyone interested in learning the Go Programming Language
+Software Developers interested in using Go to compile and test Go based applications
+DevOps practitioners looking to learn about Go to support Go based applications
+Prerequisites
+To get the most from this course, you should have at least:
+
+A basic understanding of software development and the software development life cycle
+Source Code
+All sample Go source code as used and demonstrated within this course can be found here:
+
+https://github.com/cloudacademy/learn-go
+https://github.com/cloudacademy/godemo

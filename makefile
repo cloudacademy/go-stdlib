@@ -1,20 +1,26 @@
+
+
 # ======================
-# Strings
+# strings
+
+.PHONY: builder formatter strings parse
 
 builder:
-	go run builder.go
+	go run ./strings/builder.go
 
 formatter:
-	go run formatter.go
+	go run ./strings/formatter.go
 
 strings:
-	go run strings.go
+	go run ./strings/strings.go
 
 parse:
 	go run ./strings/parse.go
 
 # ======================
-# OS
+# os
+
+.PHONY: env file exec args
 
 env:
 	CLOUDACADEMY_PORT=80 CLOUDACADEMY_HOST=192.168.10.12 go run ./os/env.go
@@ -29,4 +35,20 @@ args:
 	go run ./os/args.go	red green blue yellow
 
 # ======================
-# OS
+# math
+
+.PHONY: math
+
+math:
+	go run ./math/math.go
+
+# ======================
+# io
+
+.PHONY: io
+
+filereader:
+	go run ./io/filereader.go ./io/sample.txt
+
+filewriter:
+	go run ./io/filewriter.go ./io/sampleout.txt
