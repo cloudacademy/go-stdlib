@@ -13,7 +13,7 @@ func main(){
 
 	arg := os.Args[3]
 
-    fmt.Println(args1)
-    fmt.Println(args2)
-    fmt.Println(arg)
+	fmt.Println(args1)
+	fmt.Println(args2)
+	fmt.Println(arg)
 }
