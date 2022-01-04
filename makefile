@@ -52,3 +52,14 @@ filereader:
 
 filewriter:
 	go run ./io/filewriter.go ./io/sampleout.txt
+
+# ======================
+# net
+
+.PHONY: httpget httppost
+
+httpget:
+	go run ./net/httpget.go
+
+httppost:
+	go run ./net/httppost.go
