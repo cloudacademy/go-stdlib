@@ -8,6 +8,8 @@ import (
 )
 
 func main(){
+	//https://pkg.go.dev/os
+
 	fmt.Println(os.Getenv("PATH"))
 	
 	var outb, errb bytes.Buffer

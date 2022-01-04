@@ -6,6 +6,8 @@ import (
 )
 
 func main(){
+	//https://pkg.go.dev/os
+
 	args1 := os.Args
 	args2 := os.Args[1:]
 
