@@ -67,10 +67,16 @@ httppost:
 # ======================
 # encoding
 
-.PHONY: jsonmarshal jsonunmarshal
+.PHONY: jsonmarshal jsonunmarshal xmlmarshal xmlunmarshal
 
 jsonmarshal:
 	go run ./encoding/jsonmarshal.go
 
 jsonunmarshal:
 	go run ./encoding/jsonunmarshal.go
+
+xmlmarshal:
+	go run ./encoding/xmlmarshal.go
+
+xmlunmarshal:
+	go run ./encoding/xmlunmarshal.go
