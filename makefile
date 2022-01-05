@@ -63,3 +63,14 @@ httpget:
 
 httppost:
 	go run ./net/httppost.go
+
+# ======================
+# encoding
+
+.PHONY: jsonmarshal jsonunmarshal
+
+jsonmarshal:
+	go run ./encoding/jsonmarshal.go
+
+jsonunmarshal:
+	go run ./encoding/jsonunmarshal.go
