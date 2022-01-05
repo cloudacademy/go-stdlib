@@ -34,6 +34,7 @@ func PostRequest(data string) {
 
 	var jsonStr = []byte(data)
 	req, _ := http.NewRequest("POST", HTTPBIN_URL, bytes.NewBuffer(jsonStr))
+	req.Header.Set("Content-Type", "application/json")
 	req.Header.Set("Accept", "*/*")
 	resp, err := client.Do(req)
 	if e, ok := err.(net.Error); ok && e.Timeout() {
