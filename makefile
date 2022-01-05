@@ -1,4 +1,4 @@
-
+all: builder formatter strings parse env file exec args math filereader filewriter httpget httppost jsonmarshal jsonunmarshal xmlmarshal xmlunmarshal
 
 # ======================
 # strings
