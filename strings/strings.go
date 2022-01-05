@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func main(){
+func main() {
 	//https://pkg.go.dev/strings
 
 	var1 := "cloud"

@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-func main(){
+func main() {
 	//https://pkg.go.dev/strconv
 
 	var1 := 100

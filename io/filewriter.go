@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func main(){
+func main() {
 	text := `Learning Objectives
 By completing this course, you will:
 
@@ -45,5 +45,5 @@ And finally, you’ll learn how to work with and manage Go modules for module de
 		if n > 0 {
 			f.Write(buffer[:n])
 		}
-	}	
+	}
 }

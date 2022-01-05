@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-func main(){
+func main() {
 	fmt.Printf("%.4f\n", math.Cos(15.5))
 
 	fmt.Printf("%.4f\n", math.Pow(3.5, 2))

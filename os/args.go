@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func main(){
+func main() {
 	//https://pkg.go.dev/os
 
 	args1 := os.Args

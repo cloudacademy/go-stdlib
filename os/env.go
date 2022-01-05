@@ -5,9 +5,9 @@ import (
 	"os"
 )
 
-func main(){
+func main() {
 	//https://pkg.go.dev/os
-	
+
 	port := os.Getenv("CLOUDACADEMY_PORT")
 	host := os.Getenv("CLOUDACADEMY_HOST")
 

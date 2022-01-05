@@ -6,9 +6,9 @@ import (
 	"os"
 )
 
-func main(){
+func main() {
 	//https://pkg.go.dev/os
-	
+
 	bytes, err := os.ReadFile("makefile")
 	if err != nil {
 		log.Fatal(err)
